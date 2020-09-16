@@ -86,3 +86,41 @@ Did not detect a `bs-config.json` or `bs-config.js` override file. Using lite-se
 20.05.20 03:41:33 200 GET /shopping-cart.js
 20.05.20 03:41:38 304 GET /global.css
 PS C:\Users\Han\Desktop\code\shopping-cart>
+
+
+PS C:\Users\Han\Desktop\code\github\vue-shopping-cart> npm run dev
+
+> vue-shopping-cart@1.0.0 dev C:\Users\Han\Desktop\code\github\vue-shopping-cart
+> webpack-dev-server --mode development --open --hot --devtool source-map
+
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from C:\Users\Han\Desktop\code\github\vue-shopping-cart
+i ｢wdm｣: wait until bundle finished: /
+i ｢wdm｣: Hash: 707f9f9b89132b687d1f
+Version: webpack 4.44.1
+Time: 4856ms
+Built at: 2020-09-17 1:15:41
+               Asset     Size  Chunks                   Chunk Names
+    shopping-cart.js  803 KiB    main  [emitted]        main
+shopping-cart.js.map  934 KiB    main  [emitted] [dev]  main
+Entrypoint main = shopping-cart.js shopping-cart.js.map
+[0] multi (webpack)-dev-server/client?http://localhost:8080 (webpack)/hot/dev-server.js ./app.js 52 bytes {main} [built]
+[./app.js] 271 bytes {main} [built]
+[./components/App.vue] 1.07 KiB {main} [built]
+[./currency.js] 690 bytes {main} [built]
+[./node_modules/strip-ansi/index.js] 161 bytes {main} [built]
+[./node_modules/vue/dist/vue.esm.js] 319 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/index.js?http://localhost:8080] (webpack)-dev-server/client?http://localhost:8080 4.29 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {main} [built]
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {main} [built]
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {main} [built]
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+[./node_modules/webpack/hot/dev-server.js] (webpack)/hot/dev-server.js 1.59 KiB {main} [built]
+    + 49 hidden modules
+i ｢wdm｣: Compiled successfully.
+要終止批次工作嗎 (Y/N)? y
+PS C:\Users\Han\Desktop\code\github\vue-shopping-cart>
