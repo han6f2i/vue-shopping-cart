@@ -1,5 +1,5 @@
 {
-  "name": "shopping-cart",
+  "name": "vue-shopping-cart",
   "version": "1.0.0",
   "description": "",
   "main": "example.js",
@@ -21,19 +21,19 @@
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0",
     "@vue/babel-plugin-transform-vue-jsx": "^1.1.2",
     "babel-loader": "^8.1.0",
-    "chokidar": "^3.4.0",
-    "css-loader": "^3.5.3",
+    "chokidar": "^3.4.2",
+    "css-loader": "^4.3.0",
     "html-webpack-plugin": "^4.2.0",
-    "mini-css-extract-plugin": "^0.9.0",
+    "mini-css-extract-plugin": "^0.11.2",
     "style-loader": "^1.2.0",
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vue-loader": "^15.9.1",
     "vue-router": "^3.1.6",
     "vue-template-compiler": "^2.6.11",
-    "vuex": "^3.4.0",
-    "webpack": "^4.43.0",
+    "vuex": "^3.5.1",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {}
 }
